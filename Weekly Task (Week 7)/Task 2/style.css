@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.all > p{
+    width:700px;
+}
+.whole{
+    margin:auto;
+    width:1000px;
+}
+.box1{
+    width:330.5px;
+
+}
+.first{
+    margin-top: 50px;
+    border: 1px solid lightgray;
+}
+p{
+    font-size: 20px;
+    color:gray;
+}
+
+.box{
+    display: flex;
+}
+img{
+    width:100%;
+    height:100%;
+}
+button{
+    border:none;
+    color:blue;
+    font-size: 20px;
+    background-color: white;
+    margin-left:20px;
+}
+.box1 > p{
+    padding-left:20px;
+    padding-top:40px;
+}
+i{
+    font-size: 20px;
+    padding-top:2px;
+    margin-left: 5px;
+}
+.text{
+    display:flex;
+    color:blue;
+    margin-top: 20px;
+}
+.second{
+    display: flex;
+}
+@media only screen and (min-width:300px) and (max-width:600px){
+    .whole{
+        width: 300px;
+    }
+    .all{
+        width:300px;
+    }
+    .all > p{
+       width:400px;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+    .second{
+        display: flex;
+        flex-direction: column;
+    }
+    .first{
+        border:none;
+    }
+}
+@media only screen and (min-width:600px) and (max-width:900px){
+    .whole{
+        width: 500px;
+    }
+    .all{
+        width:500px;
+    }
+    .all > p{
+       width:500px;
+    }
+    .first{
+        border:none;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+    .second{
+        display: flex;
+        flex-direction: column;
+    }
+}

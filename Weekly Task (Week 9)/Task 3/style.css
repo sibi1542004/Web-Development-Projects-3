@@ -1,0 +1,342 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.first{
+    display: flex;
+    margin:10px;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.first>i{
+    margin: 10px;
+    font-size: 20px;
+}
+.home{
+   display: flex;
+    margin:10px;
+}
+.home>button{
+    padding: 5px 30px 5px 30px;
+    border: none;
+    background-color: rgb(220, 18, 18);
+    color: white;
+    border-radius: 5px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.home>p{
+    margin-right: 20px;
+    margin: 10px;
+}
+.box2{
+    width:70%;
+    height:450px;
+    background-image: url(https://thumbs.dreamstime.com/z/futuristic-smart-home-hub-holographic-interface-controlling-devices-modern-living-space-features-touchscreen-seamlessly-334165290.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+    color:white;
+    padding:20px;
+}
+.box2>button{
+    padding: 10px 30px 10px 30px;
+    border: none;
+    background-color: rgb(46, 46, 220);
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.our{
+    width:80%;
+    display: grid;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.four{
+    display: flex;
+}
+
+
+.con1>i{
+    color:red;
+}
+.con1{
+    height:200px;
+    width:25%;
+    background-color: lightgray;
+    color: black;
+    margin-left: 20px;
+    padding:20px;
+}
+.con1>p{
+    width:70%;
+}
+.con1>i{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.our>h2{
+    margin:20px;
+    text-align: center;
+    margin-right: 20%;
+}
+.third>h1{
+    margin-right: 20%;
+}
+.img1{
+    height:300px;
+    width:25%;
+    /* background-color: red; */
+    margin-bottom: 20px;
+}
+.our{
+    margin-left: 20%;
+}
+.third>h1{
+    text-align: center;
+}
+.third{
+    margin-left: 20%;
+}
+.img1{
+    background-image: url("https://tse4.mm.bing.net/th/id/OIP.6yNvp3Qo1euSMD5l-ooYJQAAAA?pid=ImgDet&w=203&h=135&c=7&dpr=1.3&o=7&rm=3");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+.pic1{
+    background-image: url("https://tse1.mm.bing.net/th/id/OIP.F2R61Td5xZe6KDA6fcnPaQAAAA?pid=ImgDet&w=203&h=119&c=7&dpr=1.3&o=7&rm=3");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pic2{
+    background-image: url("https://any.run/cybersecurity-blog/wp-content/uploads/2023/11/articlecoverfile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pic3{
+    background-image: url("https://nuansdesign.com/wp-content/uploads/2020/09/true-design-tao-chair-collection-01-680x390.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pic4{
+    background-image: url("https://images.clericitessuto.it/w:auto/h:auto/q:90/f:avif/https://shop.newtess.com/comceptw/img/newtess-apparel-fabric-tc000853-00.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pic5{
+    background-image: url("https://d1hy6t2xeg0mdl.cloudfront.net/image/418466/9c7aa0ae21/standard");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Images{
+    display: flex;
+}
+.class{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.final{
+    width:50%;
+    height:300px;
+}
+input{
+    width:100%;
+    padding:10px ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+textarea{
+    height:100px;
+    width:100%;
+    margin-top: 10px;
+}
+
+.send{
+    padding:10px 30px;
+    background-color: blue;
+    border: none;
+    color: white;
+    margin-left:270px;
+    margin-top:20px;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: auto auto auto; */
+    justify-content: center;
+    align-items: center;
+}
+.ser{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.ser>h2{
+    padding-left:20px;
+}
+.tag{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.tag > i{
+    margin-right: 20px;
+    font-size: 30px;
+}
+.icons{
+    width:100%;
+    margin-top:120px;
+}
+.icons>p{
+    font-size: 20px;
+}
+@media only screen and (min-width:300px) and (max-width:600px){
+
+    .container{
+        display: grid;
+        grid-template-columns: auto;
+        width:320px;
+    }
+
+
+    /* .text{
+        width:80%;
+    } */
+
+
+     .first{
+        display: grid;
+        text-align: center;
+        padding-left: 50px;
+        grid-template-columns: auto;
+    }
+    .home{
+        display: grid;
+        text-align: center;
+        grid-template-columns: auto;
+        margin-left: 96px;
+    } 
+
+    .button{
+        width:100%;
+        /* text-align: left; */
+        margin-right: 0px;
+    }
+
+    .box2{
+        /* width:80%; */
+        width: 320px;
+        height:560px;
+        font-size: 20px;
+        margin-left:25%;
+        margin-top: 50px;
+    }
+    .four{
+        display: unset;
+    }
+    .con1{
+        width:100%;
+         /* width: 320px; */
+        margin-bottom: 10px;
+    }
+    .Images{
+        display: unset;
+    }
+    .img1{
+        width:100%;
+    }
+    .final{
+        width:100%;
+        margin-left: 25%;
+    }
+    .final>button{
+        margin-left: 30%;
+    }
+    .icons{
+        width:100%;
+        margin-left: 25%;
+        margin-top: 130px;
+        margin-bottom: 30px;
+    }
+
+    .ser{
+        display: grid;
+        margin-right: 90px;
+        grid-template-columns: auto;
+    }
+    .icons>p{
+        font-size: 15px;
+        margin-right: 0px;
+    }
+}
+@media only screen and (min-width:600px) and (max-width:900px){
+    .box2{
+        width:90%;
+        height:300px;
+        font-size: 20px;
+        margin-left:10%;
+    }
+    .our{
+        margin-left: 5%;
+    }
+    .four{
+        display: unset;
+    }
+    .con1{
+        width:100%;
+        margin-bottom: 10px;
+    }
+    .third{
+        margin-left: 10%;
+        /* margin-right: 20%; */
+    }
+    .Images{
+        display: unset;
+    }
+    .img1{
+        width:100%;
+    }
+    .final{
+        width:100%;
+        margin-left: 15%;
+    }
+    .final>button{
+        margin-left: 30%;
+    }
+    .icons{
+        width:100%;
+        margin-left: 5%;
+        margin-top: 130px;
+        margin-bottom: 30px;
+    }
+    .icons>p{
+        font-size: 15px;
+    }
+    .third>h1{
+    margin-right: 5%;
+    }
+    .our>h2{
+        margin-right: 5%;
+    }
+}

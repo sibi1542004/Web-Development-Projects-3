@@ -1,0 +1,289 @@
+body {
+    margin: 0px;
+    /* background-color:gray;    */
+}
+
+.nav-bar {
+    background-color: white;
+    height: 100px;
+    margin: 0px;
+    width: 1264.5px;
+}
+
+.head {
+    margin: 0px;
+    padding-left: 100px;
+    float: left;
+    padding-top: 30px;
+}
+
+.radio {
+    float: left;
+    margin-top: 50px;
+    accent-color: green;
+    width: 10px;
+    height: 10px;
+    /* background-color: green; */
+}
+
+.bar {
+    margin-left: 560px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.image {
+    background-image: url("./mount.jpg");
+    /* background-repeat: no-repeat;
+background-size: cover;
+background-position: 500px 500px; */
+    height: 505px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.img-head {
+    text-align: center;
+    margin: 0px;
+    padding-top: 170px;
+    color: rgb(10, 43, 4);
+}
+
+.img-head2 {
+    font-size: 32px;
+    text-align: center;
+    margin: 0px;
+    color: rgb(10, 43, 4);
+    padding-top: 15px;
+}
+
+.button {
+    background-color: rgb(10, 43, 4);
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    width: 15%;
+    color: white;
+    border: 2px solid rgb(10, 43, 4);
+    border-radius: 5px;
+    margin-left: 550px;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 337px;
+    margin-left: 170px;
+}
+
+.pen {
+    font-size: 30px;
+    border: 2px solid rgb(10, 43, 4);
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.lay {
+    font-size: 30px;
+    border: 2px solid rgb(10, 43, 4);
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.rock {
+    font-size: 30px;
+    border: 2px solid rgb(10, 43, 4);
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0px;
+}
+
+.para {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 82px;
+    margin-left: 0px;
+    margin-bottom: 70px;
+}
+
+.paragraph1 {
+    text-align: center;
+    width: 20%;
+    margin-left: 82px;
+}
+
+.paragraph2 {
+    width: 20%;
+    text-align: center;
+    /* margin-right: 10px; */
+}
+
+.paragraph3 {
+    width: 20%;
+    text-align: center;
+    margin-left: 82px;
+}
+
+.feature {
+    text-align: center;
+}
+
+.para-cont {
+    padding: 25px;
+    margin: 0px;
+    width: 65%;
+    padding-left: 210px;
+    padding-top: 0px;
+    text-align: center;
+    margin: 0px;
+}
+
+.image2 {
+    background-image: url("./ocean.jpg");
+    background-repeat: no-repeat;
+    background-position: 100px 0px;
+    background-size: 1062px;
+    height: 540px;
+    margin-bottom: 50px;
+}
+
+.play {
+    font-size: 25px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 15px;
+    margin-left: 600px;
+    margin-top: 250px;
+}
+
+.second {
+    height: 210px;
+    margin: 0px;
+    float: left;
+    width: 520px;
+    background-color: lightgray;
+    margin-left: 100px;
+    /* margin-bottom: 20px; */
+}
+
+
+.second2 {
+    height: 210px;
+    margin: 0px;
+    float: left;
+    width: 510px;
+    background-color: lightgray;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.second-head {
+    width: 50%;
+    padding-top: 15px;
+    margin: 0px;
+    margin-left: 25px;
+    text-align: center;
+}
+
+.sec-img {
+    float: right;
+}
+
+.text {
+    margin: 0px;
+    text-align: center;
+    padding-top: 20px;
+    padding: 20px;
+    padding-bottom: 0px;
+    width: 50%;
+}
+
+.cont-line {
+    border-bottom: 2px solid royalblue;
+}
+
+.view {
+    border: 2px solid royalblue;
+    padding: 10px;
+    border-radius: 2px;
+    color: royalblue;
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+
+.header {
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.span-color {
+    border-bottom: 2px solid royalblue;
+}
+
+.para-cont2 {
+    padding: 25px;
+    margin: 0px;
+    margin-bottom: 10px;
+    width: 65%;
+    padding-left: 210px;
+    text-align: center;
+}
+
+.button2 {
+    padding: 10px;
+    width: 15%;
+    margin-left: 520px;
+    color: royalblue;
+    border: 2px solid royalblue;
+    border-radius: 2px;
+    margin-bottom: 100px;
+}
+
+.footer-final {
+    padding-left: 100px;
+    width: 100%;
+    margin: 0px;
+}
+
+/* .footer{
+    display: flex;
+} */
+
+.footer-final2 {
+    font-size: 13px;
+    padding-left: 100px;
+    color: royalblue;
+    margin: 0px;
+}
+
+.final {
+    display: flex;
+    gap: 450px;
+}
+
+table,
+th,
+td,
+tr {
+    width: 37%;
+    text-align: left;
+}
+
+table {
+    margin-right: 90px;
+}

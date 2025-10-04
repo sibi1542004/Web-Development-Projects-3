@@ -1,0 +1,91 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.overall{
+    height:100vh;
+    width:100%;
+    background-color:black;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+}
+.ball{
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   /* animation-delay:2s; */
+}
+h1{
+    font-size:20px;
+}
+.ball1{
+    /* background-color:blue; */
+    animation-name:myAnimation;
+    animation-duration:4s;
+    animation-fill-mode:forwards;
+    position: relative;
+    animation-timing-function: ease;
+}
+.ball2{
+    animation-timing-function:linear;
+    animation-name:Animationtwo;
+    animation-duration:4s;
+    animation-fill-mode:forwards;
+    position: relative;
+}
+.ball3{
+    animation-timing-function: ease-in;
+    /* background-color:white; */
+    animation-name:Animationthree;
+    animation-duration:4s;
+    animation-fill-mode:forwards;
+    position: relative;
+    
+}
+.ball4{
+    animation-timing-function: ease-out;
+    /* background-color:green; */
+    animation-name:Animationfour;
+    animation-duration:4s;
+    animation-fill-mode:forwards;
+    position: relative;
+}
+.ball5{
+    animation-timing-function: ease-in-out;
+    /* background-color:red; */
+    animation-name:Animationfive;
+    animation-duration:4s;
+    animation-fill-mode:forwards;
+    position:relative;
+}
+
+@keyframes myAnimation{
+    0%{background-color:aquamarine;left:0px;top:0px;}
+    50%{background-color:aquamarine;left:650px;top:613px;}
+   100%{background-color:aquamarine;left:960px;top:0px;}
+}
+@keyframes Animationtwo{
+    0%{background-color:yellow;left:0px;top:0px;}
+    50%{background-color:yellow;left:650px;top:467px;}
+    100%{background-color:yellow;left:960px;top:0px;}
+}
+@keyframes Animationthree{
+    0%{background-color:white;left:0px;top:0px;}
+    50%{background-color:white;left:650px;top:320px;}
+    100%{background-color:white;left:960px;top:0px;}
+}
+@keyframes Animationfour{
+    0%{background-color:green;left:0px;top:0px;}
+    50%{background-color:green;left:650px;top:171px;}
+    100%{background-color:green;left:960px;top:0px;}
+}
+@keyframes Animationfive{
+    0%{background-color:red;left:0px;top:0px;}
+    50%{background-color:red;left:650px;top:35px;}
+    100%{background-color:red;left:960px;top:0px;}
+}

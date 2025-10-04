@@ -1,0 +1,156 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.whole-box{
+    display: grid;
+    background-image: url("./map.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 585px;
+    min-width: 300px;
+    background-position: center;
+}
+
+.box{
+    min-height: 500px;
+    width: 600px;
+    margin: auto;
+    background-color: white;
+}
+
+.image{
+    background-image: url("./lap.jpg");
+    min-height: 150px;
+    min-width: 300px;
+    background-repeat: no-repeat;
+    background-size: 600px 160px;
+    margin-bottom: 30px;
+}
+
+.image>h1{
+    text-align: center;
+    color: rgba(24, 27, 22, 0.813);
+}
+
+.image>h2{
+    text-align: center;
+    color: rgba(24, 27, 22, 0.813);
+}
+input{
+    padding: 10px;
+    width:75%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.in1{
+    margin-left: 0px;
+}
+
+.in2{
+    margin-left: 30px;
+}
+
+.in3{
+    margin-left: 30px;
+}
+
+.in4{
+    margin-left: 12px;
+}
+
+.form{
+    margin-left: 50px;
+}
+
+.text{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.row{
+    width: 87.5%;
+     border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+button{
+    padding: 10px;
+    margin-left: 80px;
+    background-color: green;
+    color: white;
+    width:25%;
+    margin-top: 20px;
+    border: 2px solid green;
+    border-radius: 20px;
+}
+
+@media only screen and (min-width:300px) and (max-width:600px) {
+
+ .whole-box{
+    display: unset;
+ }
+
+ .box{
+    display: unset;
+ }
+
+ .image{
+    background-size: 450px 150px;
+    background-position: center;
+ }
+
+ input{
+    width: 90%;
+ }
+
+ .text{
+    grid-template-columns: auto;
+ }
+
+ .row{
+    margin-top: 20px;
+ }
+
+ .in2{
+    margin-left: 0px;
+}
+
+.in3{
+    margin-left: 0px;
+}
+
+.in4{
+    margin-left: 0px;
+}
+
+button{
+    width: 60%;
+    margin-left: 40px;
+}
+
+}
+
+@media only screen and (min-width:600px) and (max-width:900px) {
+
+.whole-box{
+    grid-template-columns: auto;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+
+
+}
+
+
+

@@ -1,0 +1,142 @@
+body{
+    margin: 0px;
+}
+
+.gray-box{
+height: 200px;
+width: 800px;
+margin: auto;
+display: flex;
+gap: 350px;
+background-color: lightgray;
+}
+
+.head{
+    width: 20%;
+    margin: 0px;
+    padding-left: 50px;
+    padding-top: 45px;
+}
+
+span{
+    font-size: 20px;
+    color: seagreen;
+}
+
+.baby{
+    display: flex;
+    /* border: 2px solid black; */
+    gap: 30px;
+    width: 60%;
+    /* margin-left: 50px; */
+    border-bottom: 2px solid gray;
+    margin-left: 245px;
+}
+
+.image2{
+    /* margin-left: 70px; */
+    margin-top: 10px;
+}
+
+.one{
+    font-size: 15px;
+}
+
+.parents{
+    padding-top: 50px;
+    margin: 0px;
+    padding-left: 0px;
+}
+
+/* .parent-div{
+border-bottom: 2px solid gray;
+background-color: springgreen;
+} */
+
+.para{
+    margin: 0px;
+    width:85%;
+    /* text-align: left; */
+    /* padding-top: 100px; */
+    /* padding-right: 300px; */
+    /* margin-right: 200px; */
+}
+
+/* .line{
+border-bottom: 2px solid gray;
+} */
+
+/* .image3{
+    display: flex;
+} */
+.traffic{
+    display: flex;
+    border-bottom: 2px solid gray;
+    width: 60%;
+    margin-left: 245px;
+    /* border: 2px solid black; */
+    gap: 0px;
+}
+
+.parent-div2{
+    padding-right: 100px; 
+    /* margin-right: 100px; */
+}
+
+.para2{
+    margin: 0px;
+    /* width:72%; */
+    /* padding-right: 390px; */
+    text-align: right; 
+    /* padding-right: 0px;  */
+}
+
+.busy{
+    padding-top: 50px;
+    margin: 0px;
+    /* padding-right: 140px; */
+    text-align: right;
+}
+
+.image3{
+    margin-right: 90px;
+}
+
+.image4{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.time{
+    display: flex;
+    /* border: 2px solid black; */
+    gap: 30px;
+    width: 60%;
+    /* margin-left: 50px; */
+    /* border-bottom: 2px solid gray; */
+    margin-left: 245px;
+}
+
+.final{
+    height: 120px;
+    width:60.3%;
+    background-color: royalblue;
+    margin-left: 245px;
+}
+
+.final-para{
+    margin: 0px;
+    padding-left: 75px;
+    padding-top: 30px;
+}
+
+.final-para2{
+    margin: 0px;
+    /* padding-left: 60px; */
+    padding: 75px;
+    padding-top: 0px;
+
+}
+
+
