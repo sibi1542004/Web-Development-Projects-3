@@ -1,0 +1,179 @@
+body {
+    background-color: gray;
+}
+
+.whole-box {
+    /* margin-top: 50px; */
+    height: 650px;
+    width: 980px;
+    margin: auto;
+    background-color: lightgray;
+}
+
+.head {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+#loc {
+    /* font-size: 20px; */
+    background-color: lightblue;
+    color: white;
+    padding: 15px;
+    margin-left: 100px;
+    border-radius: 50%;
+    border: 2px solid lightblue;
+}
+
+#phone {
+    /* font-size: 20px; */
+    background-color: lightblue;
+    color: white;
+    padding: 15px;
+    margin-left: 45px;
+    border-radius: 50%;
+    border: 2px solid lightblue;
+}
+
+#mail {
+    /* font-size: 20px; */
+    background-color: lightblue;
+    color: white;
+    padding: 15px;
+    margin-left: 60px;
+    border-radius: 50%;
+    border: 2px solid lightblue;
+}
+
+.add {
+    margin-left: 40px;
+    width: 70%;
+}
+
+.icons {
+    float: left;
+    /* background-color: springgreen; */
+}
+
+.icon1 {
+    float: left;
+    margin-left: 60px;
+    width: 30%;
+    /* background-color: springgreen; */
+}
+
+.icon2 {
+    float: left;
+    /* margin-left: 10px; */
+    /* background-color: blue; */
+}
+
+.icon3 {
+    float: left;
+    /* background-color: orange; */
+    margin-left: 30px;
+}
+
+.icon4 {
+    float: left;
+    /* background-color: orange; */
+    margin-left: 30px;
+}
+
+.ph {
+    text-align: center;
+    /* width:0%; */
+}
+
+.num {
+    color: royalblue;
+}
+
+.mail-det {
+    color: royalblue
+}
+
+
+#globe {
+    /* font-size: 20px; */
+    background-color: lightblue;
+    color: white;
+    padding: 15px;
+    margin-left: 45px;
+    border-radius: 50%;
+    border: 2px solid lightblue;
+}
+
+.whole-box2 {
+    margin-left: 100px;
+    margin-top: 120px;
+    height: 400px;
+    width: 50%;
+    background-color: white;
+}
+
+.contact {
+    margin: 0px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.per-name {
+    margin-left: 20px;
+}
+
+.fname {
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    width: 40%;
+    border-bottom: 2px solid black;
+}
+
+.address {
+    margin-left: 130px;
+    border: none;
+    width: 60%;
+}
+
+.subject {
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    width: 80%;
+    border-bottom: 2px solid black;
+}
+
+.Message {
+    margin: 0px;
+    margin-left: 20px;
+}
+
+.text {
+    margin-left: 20px;
+    border: none;
+    outline: none;
+}
+
+.button {
+    padding: 10px;
+    background-color: royalblue;
+    border: 2px solid royalblue;
+    border-radius: 5px;
+    color: white;
+    margin-left: 30px;
+}
+
+.image {
+    height: 520px;
+    color: white;
+    background-image: url("./tiger.jpg");
+    background-repeat: no-repeat;
+    margin-right: 40px;
+    background-size: 300px 280px;
+    background-position: right center;
+}

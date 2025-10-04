@@ -1,0 +1,244 @@
+body {
+    margin: 0px;
+}
+
+.head {
+    margin: 0px;
+    font-size: 50px;
+    float: left;
+    color: orangered;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+.whole-box {
+    background-image: url("./night.jpg");
+    height: 780px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    background-position: center;
+}
+
+
+.nav-bar {
+    float: left;
+}
+
+.home {
+    margin: 0px;
+    font-size: 20px;
+    color: white;
+    float: left;
+    margin-left: 200px;
+    padding-top: 30px;
+}
+
+.about {
+    float: left;
+    margin: 0px;
+    font-size: 20px;
+    color: white;
+    margin-left: 100px;
+    padding-top: 30px;
+}
+
+.search {
+    float: left;
+    color: white;
+    border: 1px solid orangered;
+    margin: 0px;
+    /* font-size: 20px; */
+    background-color: transparent;
+    /* color: white; */
+    outline: none;
+    /* border: none; */
+    padding: 15px;
+    border-right: none;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.search::placeholder {
+    color: white;
+}
+
+.button {
+    float: left;
+    margin: 0px;
+    font-size: 15px;
+    /* color: white; */
+    margin-left: 0px;
+    padding: 13px;
+    border: 2px solid orangered;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    background-color: orangered;
+    width: 100px;
+    margin-top: 15.5px;
+}
+
+.head2 {
+    margin: 0px;
+    font-size: 50px;
+    float: left;
+    color: white;
+    padding-left: 60px;
+    padding-top: 150px;
+    width: 30%;
+}
+
+.dev {
+    color: orangered;
+    font-size: 70px;
+}
+
+.para {
+    color: white;
+    margin: 0px;
+    font-size: 25px;
+    padding-left: 65px;
+    padding-top: 430px;
+    margin-bottom: 20px;
+    width: 41%;
+}
+
+.button2 {
+    padding: 15px;
+    background-color: orangered;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid orangered;
+    color: white;
+    margin-left: 50px;
+    width: 12%;
+}
+
+
+.whole-box2 {
+    height: 450px;
+    margin-top: 150px;
+    margin-right: 70px;
+    float: right;
+    width: 430px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.head3 {
+    text-align: center;
+    border: 2px solid white;
+    background-color: white;
+    color: orangered;
+    border-radius: 10px;
+    margin: 0px;
+    margin-left: 50px;
+    margin-top: 25px;
+    width: 75%;
+}
+
+.para2 {
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: 100px;
+    width: 45%;
+    text-align: center;
+}
+
+.name {
+    margin-top: 20px;
+    margin-left: 55px;
+    padding: 10px;
+    color: white;
+    width: 70%;
+    border: none;
+    border-bottom: 2px solid orangered;
+    background-color: black;
+    /* border: 2px solid lightgray; */
+    outline: none;
+    margin-bottom: 5px;
+}
+
+.pwd {
+    /* float:right; */
+    margin: 0px;
+    margin-top: 5px;
+    text-align: center;
+    color: white;
+    padding-left: 135px;
+    width: 40%;
+}
+
+.name::placeholder {
+    color: white;
+}
+
+.color {
+    color: orangered;
+}
+
+.button3 {
+    padding: 10px;
+    margin-top: 20px;
+    width: 77%;
+    font-size: 20px;
+    background-color: orangered;
+    border: 2px solid orangered;
+    margin-left: 50px;
+    border-radius: 5px;
+    color: white;
+}
+
+.foot-txt {
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.icons {
+    margin-bottom: 15px;
+}
+
+#google {
+    font-size: 30px;
+    margin-left: 75px;
+    color: white;
+}
+
+#git {
+    font-size: 30px;
+    margin-left: 20px;
+    color: white;
+    /* background-color: lightgray;  */
+}
+
+#fb {
+    font-size: 30px;
+    margin-left: 20px;
+    color: white;
+    /* background-color: lightgray; */
+}
+
+#insta {
+    font-size: 30px;
+    color: white;
+    margin-left: 20px;
+}
+
+#twitter {
+    font-size: 30px;
+    color: white;
+    margin-left: 20px;
+}
+
+
+
+.footer {
+    text-align: center;
+}
+
+.foot-color {
+    color: orangered
+}

@@ -1,0 +1,193 @@
+body {
+    margin: 0px;
+    background-color: black;
+}
+
+.move {
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.head {
+    text-align: center;
+    margin: 0px;
+    margin-right: 20px;
+    color: white;
+    padding-top: 150px;
+}
+
+.whole-box {
+    background-image: url("./laptop.jpg");
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    background-position: bottom center;
+}
+
+.box-1 {
+    float: left;
+    width: 45%;
+    /* background-color: springgreen; */
+}
+
+.box-2 {
+    float: left;
+    width: 45%;
+    margin-left: 20px;
+    /* background-color: blue; */
+}
+
+.box-3 {
+    float: left;
+    width: 45%;
+    margin-top: 20px;
+    /* background-color: brown; */
+}
+
+.box-4 {
+    float: left;
+    width: 45%;
+    margin-top: 20px;
+    margin-left: 20px;
+    /* background-color: gray; */
+}
+
+
+
+#quote {
+    font-size: 40px;
+    color: lightblue;
+    float: left;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+
+.para {
+    color: white;
+    margin: 0px;
+    float: left;
+    padding-top: 30px;
+    width: 70%;
+    font-size: 18px;
+}
+
+.name {
+    color: yellow;
+    margin: 0px;
+    margin-left: 60px;
+    margin-top: 110px;
+}
+
+.dom {
+    color: white;
+    margin: 0px;
+    font-size: 12px;
+    margin-left: 62px;
+}
+
+
+
+#quote2 {
+    font-size: 40px;
+    color: lightblue;
+    float: left;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+
+.para2 {
+    color: white;
+    margin: 0px;
+    float: left;
+    padding-top: 30px;
+    width: 70%;
+    font-size: 18px;
+}
+
+.name2 {
+    color: yellow;
+    margin: 0px;
+    margin-left: 63px;
+    margin-top: 110px;
+}
+
+.dom2 {
+    color: white;
+    margin: 0px;
+    font-size: 12px;
+    margin-left: 63px;
+}
+
+
+#quote3 {
+    font-size: 40px;
+    color: lightblue;
+    float: left;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+
+.para3 {
+    color: white;
+    margin: 0px;
+    float: left;
+    padding-top: 30px;
+    width: 70%;
+    font-size: 18px;
+}
+
+.name3 {
+    color: yellow;
+    margin: 0px;
+    margin-left: 63px;
+    margin-top: 110px;
+}
+
+.dom3 {
+    color: white;
+    margin: 0px;
+    font-size: 12px;
+    margin-left: 63px;
+}
+
+
+#quote4 {
+    font-size: 40px;
+    color: lightblue;
+    float: left;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+
+.para4 {
+    color: white;
+    margin: 0px;
+    margin-top: 20px;
+    float: left;
+    padding-top: 10px;
+    width: 70%;
+    font-size: 18px;
+}
+
+.name4 {
+    color: yellow;
+    margin: 0px;
+    margin-left: 63px;
+    margin-top: 110px;
+    /* padding-top: 130px; */
+}
+
+.dom4 {
+    color: white;
+    margin: 0px;
+    font-size: 12px;
+    margin-left: 63px;
+    /* margin-top: 125px; */
+    /* padding-top: 40px; */
+
+}

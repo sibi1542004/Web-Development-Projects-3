@@ -1,0 +1,252 @@
+body {
+    background-color: black;
+    margin: 0px;
+    margin-left: 25px;
+}
+
+.box-1 {
+    height: 620px;
+    float: left;
+    width: 360px;
+    margin: auto;
+    background-image: url("./images/nature.jpg");
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    /* background-size: 200px 150px;  */
+    background-position: bottom center;
+}
+
+
+
+
+#tag {
+    margin-left: 30px;
+    color: white;
+    float: left;
+    padding-top: 450px;
+}
+
+.para {
+    float: left;
+    margin: 0%;
+    color: white;
+    padding-top: 450px;
+}
+
+.radio {
+    float: left;
+    margin-left: 15px;
+    width: 10px;
+    margin-top: 450px;
+}
+
+#clock {
+    float: left;
+    font-size: 12px;
+    padding-left: 10px;
+    color: white;
+    padding-top: 450px;
+}
+
+.min {
+    margin: 0px;
+    float: left;
+    color: white;
+    margin-left: 5px;
+    font-size: 12px;
+    padding-top: 450px;
+}
+
+
+/* .col-1{
+    margin-right:130px;
+} */
+
+.brief {
+    float: right;
+    width: 75%;
+    margin: 0px;
+    font-size: 25px;
+    margin-top: 10px;
+    color: white;
+    ;
+    margin-right: 56px;
+}
+
+#pro {
+    float: left;
+    color: white;
+    margin-top: 20px;
+    font-size: 13px;
+    margin-left: 30px;
+}
+
+.name {
+    float: left;
+    color: white;
+    margin-top: 17px;
+    margin-left: 5px;
+}
+
+.radio2 {
+    float: left;
+    margin-left: 17px;
+    width: 10px;
+    margin-top: 20px;
+}
+
+#fb {
+    float: left;
+    color: white;
+    margin-top: 19px;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.sh {
+    float: left;
+    color: white;
+    margin-top: 17px;
+    margin-left: 5px;
+}
+
+
+.box-2 {
+    float: left;
+    height: 300px;
+    margin-top: 23px;
+    width: 500px;
+    background-image: url("./images/beach.jpg");
+    background-repeat: no-repeat;
+    background-size: 510px 350px;
+    background-position: left;
+}
+
+#tag2 {
+    margin-left: 30px;
+    color: white;
+    float: left;
+    padding-top: 70px;
+}
+
+.para-1 {
+    float: left;
+    margin: 0%;
+    color: white;
+    padding-top: 70px;
+}
+
+.radio-1 {
+    float: left;
+    margin-left: 15px;
+    width: 10px;
+    margin-top: 70px;
+}
+
+#clock2 {
+    float: left;
+    font-size: 12px;
+    padding-left: 10px;
+    color: white;
+    padding-top: 70px;
+}
+
+.min2 {
+    margin: 0px;
+    float: left;
+    color: white;
+    margin-left: 5px;
+    font-size: 12px;
+    padding-top: 70px;
+}
+
+
+/* .col-1{
+    margin-right:130px;
+} */
+
+.brief2 {
+    float: right;
+    width: 56%;
+    margin: 0px;
+    font-size: 25px;
+    margin-top: 10px;
+    color: white;
+    ;
+    margin-right: 185px;
+}
+
+#pro2 {
+    float: left;
+    color: white;
+    margin-top: 40px;
+    font-size: 13px;
+    margin-left: 30px;
+}
+
+.name2 {
+    float: left;
+    color: white;
+    margin-top: 40px;
+    margin-left: 5px;
+}
+
+.radio-2 {
+    float: left;
+    margin-left: 17px;
+    width: 10px;
+    margin-top: 40px;
+}
+
+#fb2 {
+    float: left;
+    color: white;
+    margin-top: 40px;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.sh2 {
+    float: left;
+    color: white;
+    margin-top: 39px;
+    margin-left: 5px;
+}
+
+
+.box-3 {
+    float: left;
+    margin-top: 23px;
+    margin-left: 10px;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 10px;
+    /* background-size: 390px 590px;  */
+    background-image: url("./images/desert.avif");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.box-4 {
+    float: left;
+    width: 500px;
+    height: 285px;
+    background-image: url("./images/cow.jpeg");
+    background-repeat: no-repeat;
+    background-size: 500px 285px;
+    background-position: center;
+}
+
+
+.box-5 {
+    float: left;
+    height: 285px;
+    width: 500px;
+    margin-top: 0px;
+    margin-left: 10px;
+    /* background-position: 500px 500px; */
+    background-image: url("./images/flowers.jpeg");
+    background-repeat: no-repeat;
+    background-size: 500px 285px;
+    background-position: center;
+}
